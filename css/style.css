@@ -1,0 +1,160 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,800;1,900&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  align-items: center;
+  justify-content:center;
+}
+
+h1 {
+  font-family: Poppins;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: xx-large;
+}
+
+h3 {
+  font-family: Poppins;
+  margin: 0;
+  align-items: center;
+  justify-content:center;
+}
+
+h2 {
+  color: #0D0D0D;
+  font-family: Poppins;
+  margin: 0;
+  align-items: center;
+  justify-content:center;
+  padding: 1em;
+}
+
+h4
+{
+  font-family: Poppins;
+  color: #0D0D0D;
+  margin: 0;
+  align-items: center;
+  justify-content:center;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 130px 0;
+  background-image: url(../images/dm-background-neutral-blue.png);
+}
+
+.banner p {
+  color: #F2F2F2;
+  font-family: Poppins;
+  margin: 0;
+  align-items: center;
+  justify-content:center;
+  font-size: x-large;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+
+.card img {
+  width: 50px;
+}
+
+.card p {
+  font-family: 'Roboto', sans-serif;
+  color: #2c2b2b;
+  text-align: justify;
+
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #0D0D0D;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #D91147;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+}
+.btn-primary a {
+  text-decoration: none;
+}
+
+#palette_de_couleur
+{
+color: #D91147 ;
+color: #0511F2 ;
+color: #0820A6 ;
+color: #F2F2F2 ;
+color: #0D0D0D ;
+};
+
+
+.list-inline {
+  font-size: 200px;
+}
+
+.list-inline a {
+  text-decoration: none;
+}
+
+.fa-brands {
+  color: #D91147;
+  }
+.fa-brands:hover {
+  color: #0511F2;
+  }
+
+  #links {
+    font-family: 'Abril Fatface', cursive;
+    color: #0511F2;
+    }
+
+li {
+  display: inline ;
+  }
+  .footer .fas {
+    color: #D91147;
+  }
